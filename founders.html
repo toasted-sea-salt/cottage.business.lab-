@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Virtual Farmers Market | The Cottage Business Lab</title>
+    <meta name="description" content="A filterable directory of small founders, hobby businesses, makers, food projects, and service providers ready for support.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="index.html" aria-label="The Cottage Business Lab home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48" width="28" height="28"><path d="M9 23 24 10l15 13v16H9V23Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/><path d="M19 39V27h10v12" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/><path d="M30 13c0-4 3-6 7-6 0 4-2 7-7 7" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg></span><span class="brand-text">The Cottage Business Lab <small>Pay-what-you-can founder support</small></span></a>
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <nav class="nav-links" aria-label="Primary navigation"><a href="services.html">Services</a><a href="founders.html">Virtual Farmers Market</a><a href="resources.html">Free Templates</a><a href="library.html">Free Blogs</a><a href="about.html">About</a></nav>
+        <a class="nav-cta" href="services.html#intake"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="m13 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Start Your Journey</a>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-hero">
+        <div class="wrap page-intro">
+          <p class="eyebrow">Virtual Farmers Market</p>
+          <h1>Browse small businesses to support.</h1>
+          <p>Explore early founders, makers, service providers, and community ideas. Supporting a business can mean mentorship, a first purchase, supplies, a signal boost, or a small sponsorship.</p>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="wrap">
+          <div class="filter-bar" data-filter-group data-filter-target="[data-founder-card]" data-search-target="#founder-search">
+            <button class="filter-button" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-button" type="button" data-filter="handmade" aria-pressed="false">Handmade</button>
+            <button class="filter-button" type="button" data-filter="food" aria-pressed="false">Food</button>
+            <button class="filter-button" type="button" data-filter="services" aria-pressed="false">Services</button>
+            <button class="filter-button" type="button" data-filter="wellness" aria-pressed="false">Wellness</button>
+            <button class="filter-button" type="button" data-filter="tech" aria-pressed="false">Tech Ideas</button>
+            <input class="search-field" id="founder-search" type="search" placeholder="Search businesses">
+          </div>
+          <div class="founder-grid">
+            <article class="founder-card" data-founder-card data-tags="handmade services">
+              <div class="founder-art"><span class="founder-badge">Handmade Goods</span><svg viewBox="0 0 96 96" aria-hidden="true"><path d="M21 62c6-28 45-28 52 0" fill="none" stroke="#25201d" stroke-width="5" stroke-linecap="round"/><path d="M33 60c0-10 7-18 15-18s15 8 15 18" fill="#f1c96a" stroke="#25201d" stroke-width="5"/><path d="M31 72h34" stroke="#25201d" stroke-width="5" stroke-linecap="round"/><circle cx="34" cy="36" r="10" fill="#b85742"/><circle cx="62" cy="36" r="10" fill="#477f7a"/></svg></div>
+              <div class="founder-body"><h3>Nana Rose Knits</h3><p>Hand-knit blankets and keepsakes made in small seasonal batches.</p><div class="founder-meta"><span class="tag">Needs photos</span><span class="tag">Austin, TX</span></div><div class="founder-actions"><a class="button" href="business-website.html?business=nana-rose-knits">Website</a><a class="button secondary" href="mailto:hello@thecottagebusinesslab.org?subject=Nana%20Rose%20Knits%20profile">Contact</a></div></div>
+            </article>
+            <article class="founder-card" data-founder-card data-tags="food handmade">
+              <div class="founder-art"><span class="founder-badge">Food & Beverage</span><svg viewBox="0 0 96 96" aria-hidden="true"><path d="M24 48h48v30H24z" fill="#fffaf1" stroke="#25201d" stroke-width="5" stroke-linejoin="round"/><path d="M31 48c2-16 9-25 17-25s15 9 17 25" fill="#d8e8ea" stroke="#25201d" stroke-width="5"/><path d="M37 61h22" stroke="#b85742" stroke-width="5" stroke-linecap="round"/></svg></div>
+              <div class="founder-body"><h3>Marisol's Market Jams</h3><p>Fruit preserves inspired by family recipes and local produce.</p><div class="founder-meta"><span class="tag">Cottage food</span><span class="tag">Label design</span></div><div class="founder-actions"><a class="button" href="business-website.html?business=marisols-market-jams">Website</a><a class="button secondary" href="mailto:hello@thecottagebusinesslab.org?subject=Marisol%27s%20Market%20Jams%20profile">Contact</a></div></div>
+            </article>
+            <article class="founder-card" data-founder-card data-tags="services tech">
+              <div class="founder-art"><span class="founder-badge">Services</span><svg viewBox="0 0 96 96" aria-hidden="true"><path d="M21 25h54v38H21z" fill="#fffaf1" stroke="#25201d" stroke-width="5" stroke-linejoin="round"/><path d="M35 76h26M48 63v13" stroke="#25201d" stroke-width="5" stroke-linecap="round"/><path d="M31 38h20M31 49h32" stroke="#477f7a" stroke-width="5" stroke-linecap="round"/></svg></div>
+              <div class="founder-body"><h3>BrightStart Tutoring</h3><p>Affordable homework help and study coaching for middle-school families.</p><div class="founder-meta"><span class="tag">Website refresh</span><span class="tag">Mentor wanted</span></div><div class="founder-actions"><a class="button" href="business-website.html?business=brightstart-tutoring">Website</a><a class="button secondary" href="mailto:hello@thecottagebusinesslab.org?subject=BrightStart%20Tutoring%20profile">Contact</a></div></div>
+            </article>
+            <article class="founder-card" data-founder-card data-tags="wellness services">
+              <div class="founder-art"><span class="founder-badge">Wellness</span><svg viewBox="0 0 96 96" aria-hidden="true"><path d="M48 73c-17-8-25-20-25-34 11 0 19 5 25 15 6-10 14-15 25-15 0 14-8 26-25 34Z" fill="#8fa78a" stroke="#25201d" stroke-width="5" stroke-linejoin="round"/><path d="M48 73V42" stroke="#25201d" stroke-width="5" stroke-linecap="round"/></svg></div>
+              <div class="founder-body"><h3>Quiet Porch Care</h3><p>Neighborly respite sitting and errand support for family caregivers.</p><div class="founder-meta"><span class="tag">Service menu</span><span class="tag">Trust messaging</span></div><div class="founder-actions"><a class="button" href="business-website.html?business=quiet-porch-care">Website</a><a class="button secondary" href="mailto:hello@thecottagebusinesslab.org?subject=Quiet%20Porch%20Care%20profile">Contact</a></div></div>
+            </article>
+            <article class="founder-card" data-founder-card data-tags="handmade">
+              <div class="founder-art"><span class="founder-badge">Handmade Goods</span><svg viewBox="0 0 96 96" aria-hidden="true"><path d="M24 28h48v40H24z" fill="#fffaf1" stroke="#25201d" stroke-width="5"/><path d="M24 42h48M38 28v40" stroke="#25201d" stroke-width="5"/><path d="M28 18c10 0 16 4 20 10 4-6 10-10 20-10" fill="none" stroke="#b85742" stroke-width="5" stroke-linecap="round"/></svg></div>
+              <div class="founder-body"><h3>Paper Lantern Press</h3><p>Handmade stationery, thank-you cards, and tiny celebration goods.</p><div class="founder-meta"><span class="tag">Wholesale intro</span><span class="tag">Photography</span></div><div class="founder-actions"><a class="button" href="business-website.html?business=paper-lantern-press">Website</a><a class="button secondary" href="mailto:hello@thecottagebusinesslab.org?subject=Paper%20Lantern%20Press%20profile">Contact</a></div></div>
+            </article>
+            <article class="founder-card" data-founder-card data-tags="tech services">
+              <div class="founder-art"><span class="founder-badge">Tech Idea</span><svg viewBox="0 0 96 96" aria-hidden="true"><rect x="25" y="18" width="46" height="60" rx="7" fill="#d8e8ea" stroke="#25201d" stroke-width="5"/><path d="M38 33h20M38 45h15M38 57h22" stroke="#477f7a" stroke-width="5" stroke-linecap="round"/><circle cx="48" cy="69" r="3" fill="#25201d"/></svg></div>
+              <div class="founder-body"><h3>NeighborCart</h3><p>A simple idea for helping neighbors coordinate shared grocery runs.</p><div class="founder-meta"><span class="tag">Customer research</span><span class="tag">Prototype</span></div><div class="founder-actions"><a class="button" href="business-website.html?business=neighborcart">Website</a><a class="button secondary" href="mailto:hello@thecottagebusinesslab.org?subject=NeighborCart%20profile">Contact</a></div></div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner"><div><h2>The Cottage Business Lab</h2><p>A nonprofit, pay-what-you-can launch lab for early founders, hobbyists, and community makers.</p><form class="newsletter-form" data-mail-form="newsletter" data-subject="Newsletter signup"><label class="field" style="flex:1"><span class="hidden">Email</span><input name="email" type="email" placeholder="Email for founder stories" required></label><button class="button" type="submit">Join</button></form></div><div><h3>Explore</h3><nav class="footer-links" aria-label="Footer navigation"><a href="services.html">Services</a><a href="founders.html">Virtual Farmers Market</a><a href="resources.html">Free Templates</a><a href="library.html">Free Blogs</a><a href="about.html">About</a><a href="donate.html">Donate</a></nav></div><div><h3>Contact</h3><p>hello@thecottagebusinesslab.org</p><p>Built for Google Forms, Sheets, and static hosting.</p></div></div>
+      <div class="footer-bottom"><div class="footer-bottom-inner"><span>Copyright 2026 The Cottage Business Lab</span><span>Small beginnings, serious care.</span></div></div>
+    </footer>
+    <script src="assets/js/site.js"></script>
+  </body>
+</html>
