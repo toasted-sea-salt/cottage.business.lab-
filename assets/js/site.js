@@ -1,7 +1,7 @@
 const CONTACT_EMAIL = "hello@thecottagebusinesslab.org";
 
 const FORM_LINKS = {
-  intake: "",
+  intake: "https://docs.google.com/forms/d/e/1FAIpQLScx41XMcZKljdouZgyiM8aYMlc8RfQLL2vyZziogGiuRpE48A/viewform?usp=header",
   newsletter: "",
   donation: ""
 };
